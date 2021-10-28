@@ -82,13 +82,19 @@ eval `dircolors ~/.dir_colors/dircolors`
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
+copydir
+copyfile
 cp
+dirhistory
 docker
 git
 npm
 node
-yarn
+sudo
+jsontools
 vscode
+web-search
+yarn
 zsh-autosuggestions
 )
 
