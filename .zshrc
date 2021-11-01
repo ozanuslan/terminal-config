@@ -93,7 +93,6 @@ node
 sudo
 jsontools
 vscode
-web-search
 yarn
 zsh-autosuggestions
 )
