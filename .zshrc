@@ -87,6 +87,7 @@ copyfile
 cp
 dirhistory
 docker
+docker-compose
 git
 npm
 node
