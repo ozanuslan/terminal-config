@@ -141,3 +141,5 @@ export NVM_DIR="$HOME/.nvm"
 export PATH="$PATH:$HOME/.rvm/bin"
 export PATH="$PATH:/opt/apache-maven-3.8.4/bin"
 alias gora="go run *.go"
+alias open="xdg-open"
+source /etc/profile.d/gradle.sh
