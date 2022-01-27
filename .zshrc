@@ -97,6 +97,7 @@ vscode
 yarn
 zsh-autosuggestions
 zsh-syntax-highlighting
+web-search
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -142,4 +143,6 @@ export PATH="$PATH:$HOME/.rvm/bin"
 export PATH="$PATH:/opt/apache-maven-3.8.4/bin"
 alias gora="go run *.go"
 alias open="xdg-open"
+alias sag="sudo apt-get"
 source /etc/profile.d/gradle.sh
+export PATH="$PATH:/home/ozan/.local/share/coursier/bin"
