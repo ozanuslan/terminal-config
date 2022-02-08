@@ -98,6 +98,7 @@ yarn
 zsh-autosuggestions
 zsh-syntax-highlighting
 web-search
+dirhistory
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -146,3 +147,4 @@ alias open="xdg-open"
 alias sag="sudo apt-get"
 source /etc/profile.d/gradle.sh
 export PATH="$PATH:/home/ozan/.local/share/coursier/bin"
+alias pyenv="/home/ozan/.pyenv/bin/pyenv"
