@@ -148,3 +148,7 @@ alias sag="sudo apt-get"
 source /etc/profile.d/gradle.sh
 export PATH="$PATH:/home/ozan/.local/share/coursier/bin"
 alias pyenv="/home/ozan/.pyenv/bin/pyenv"
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
