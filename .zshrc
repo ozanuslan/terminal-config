@@ -145,6 +145,7 @@ export PATH="$PATH:/opt/apache-maven-3.8.4/bin"
 alias gora="go run *.go"
 alias open="xdg-open"
 alias sag="sudo apt-get"
+alias ssdn="sudo shutdown now"
 source /etc/profile.d/gradle.sh
 export PATH="$PATH:/home/ozan/.local/share/coursier/bin"
 alias pyenv="/home/ozan/.pyenv/bin/pyenv"
@@ -152,3 +153,18 @@ alias pyenv="/home/ozan/.pyenv/bin/pyenv"
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+[ -f "/home/ozan/.ghcup/env" ] && source "/home/ozan/.ghcup/env" # ghcup-env
+# Wasmer
+export WASMER_DIR="/home/ozan/.wasmer"
+[ -s "$WASMER_DIR/wasmer.sh" ] && source "$WASMER_DIR/wasmer.sh"
+
+export WASMTIME_HOME="$HOME/.wasmtime"
+
+export PATH="$WASMTIME_HOME/bin:$PATH"
+# bun completions
+[ -s "/home/ozan/.bun/_bun" ] && source "/home/ozan/.bun/_bun"
+
+# Bun
+export BUN_INSTALL="/home/ozan/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
