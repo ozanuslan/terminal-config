@@ -1,0 +1,24 @@
+[user]
+	name = Ozan Uslan
+	email = ozanuslan@hotmail.com
+	signingkey = 954F128BFF75938F
+	mail = ozanuslan@hotmail.com
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[init]
+	defaultBranch = main
+[merge]
+	tool = p4merge
+[mergetool "p4merge"]
+	path = /usr/local/bin/p4merge
+[mergetool]
+	prompt = false
+[diff]
+	tool = p4merge
+[difftool "p4merge"]
+	path = /usr/local/bin/p4merge
+[difftool]
+	prompt = false
+[alias]
+	hist = log --oneline --graph --decorate
