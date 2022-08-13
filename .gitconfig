@@ -22,3 +22,5 @@
 	prompt = false
 [alias]
 	hist = log --oneline --graph --decorate
+[core]
+	filemode = false
